@@ -67,7 +67,7 @@ to train a Convolutional Neural Network on only 60 samples per class, far below 
 
 Lenet is the oldest Architecture in CNN that uses tanh as activation function rather than most popular relu. The final model will be big in size and performance cannot guaranted. So,below is the performance analysis of lenet on leafsnap field images rather than lab data because we are looking for a candidate which can perform good on small field data than we can select best for further training on lab data.
 
-![image.png](attachment:image.png)
+![png](lenet.png)
 
 ### Performance Analysis of Lenet with or without Data Argumentation
 
@@ -129,7 +129,7 @@ display(HTML(f"<table><tr><td><img src='LeafSnap_AlexNet/plot_AlexNet_without_da
 
 Micro-architectures are small building blocks designed by deep learning practitioners to enable networks to learn (1) faster and (2) more efficiently, all while increasing network depth. These micro-architecture building blocks are stacked, along with conventional layer types such as CONV, POOL, etc., to form the overall macro architecture.Inside the Inception module, we learn all three 5 × 5, 3 × 3, and 1 × 1 filters (computing them in parallel)concatenating the resulting feature maps along the channel dimension. The next layer in the GoogLeNet architecture (which could be another Inception module) receives these concatenated, mixed filters and performs the same process. Taken as a whole, this process enables GoogLeNet to learn both local features via smaller convolutions and abstracted features with larger convolutions – we don’t have to sacrifice our level of abstraction at the expense of smaller features
 
-![image.png](attachment:image.png)
+![png](inception.png)
 
 [source: Deep learning for computer vision with python by adrian rosebrock]
 
